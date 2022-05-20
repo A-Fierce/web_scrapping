@@ -1,0 +1,5 @@
+Дата и время запуска функции web_scrapping_habr: Tuesday, 17 May 2022 11:45:11с результатом <function log_it.<locals>._log_it.<locals>._new_log_it at 0x000001FD18AB30A0>
+Дата и время запуска функции web_scrapping_habr: Tuesday, 17 May 2022 11:53:33с результатом <function log_it.<locals>._log_it at 0x000001BFDE1A3E20>
+Дата и время запуска функции web_scrapping_habr: Tuesday, 17 May 2022 12:00:11с результатом None
+Дата и время запуска функции web_scrapping_habr: Tuesday, 17 May 2022 12:06:34с результатом 2022-05-17, 06:35 - Работа с API HeadHunter при помощи python - https://habr.com/ru/post/666062/
+Дата и время запуска функции web_scrapping_habr: Friday, 20 May 2022 10:05:38с результатом None

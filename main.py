@@ -2,8 +2,9 @@ import bs4
 import requests
 from head import HEADERS
 import re
+from decor import log_it
 
-
+@log_it(path='logs/log.txt')
 def web_scrapping_habr():
     url = 'https://habr.com/ru/all'
     KEYWORDS = ['дизайн', 'фото', 'web', 'python', 'краткое']
@@ -25,9 +26,9 @@ def web_scrapping_habr():
                     title = article.find('h2').find('span').text
                     date = article.find(class_='tm-article-snippet__datetime-published').find('time').attrs['title']
                     result = f"{date} - {title} - {link}"
-                    print(result)
+                    return result
 
 
 if __name__ == '__main__':
-    web_scrapping_habr()
+    print(web_scrapping_habr())
 
